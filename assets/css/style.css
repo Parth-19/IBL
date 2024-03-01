@@ -9,6 +9,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background: url("https://img.freepik.com/free-photo/basketball-game-concept_23-2150910692.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709164800&semt=sph") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(34, 34, 34, 0.8);
+}
 
 @media (min-width: 1366px) {
   body {
