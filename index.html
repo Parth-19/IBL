@@ -22,8 +22,34 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
- 
- 
+  <style>
+    /* Style for the footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1; /* Ensures footer is on top of other content */
+    }
+
+    /* Style for the container */
+    .container {
+     
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 2; /* Makes container appear above main content and footer */
+    }
+
+    /* Style for the text before the footer */
+    .text-before-footer {
+      font-weight: bold;
+      font-size: 40px;
+      color: #fff; /* White color */
+      text-transform: uppercase;
+    }
+  </style>
 
 
 </head>
@@ -35,7 +61,7 @@
  
   
     <div class="container d-flex flex-column align-items-center">
-      <img src="assets/img/WhatsApp_Image_2024-02-27_at_11.10.02_AM-removebg-preview.png" alt="Indian Basketball League Logo" class="logo" width="200" height="200">
+      <img src="assets/img/my-image.png" alt="Indian Basketball League Logo" class="logo" width="150" height="150">
      <br>
      <br>
      <br>
@@ -44,17 +70,12 @@
      <br>
      <br>
      <br>
-     <br>
-     <br>
+    
      
      
     
      
-     
-     
-      <h1>Coming soon!
-
-        </h1>
+    
       
      
 
@@ -67,6 +88,13 @@
 
    
   </main><!-- End #main -->
+
+  <div class="container">
+    <!-- Text before the footer -->
+    <div class="text-before-footer">
+      <p>COMING SOON</p>
+    </div>
+  </div>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
